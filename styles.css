@@ -19,6 +19,10 @@ ul {
   padding-inline-start: 20px;
 }
 
+h2{
+  font-size: 24px;
+}
+
 h3 {
   display: block;
   font-size: 22px;
@@ -69,6 +73,7 @@ p {
 ._customer-title {
   display: flex;
   align-items: center;
+  vertical-align: middle;
 }
 
 ._customer-point {
@@ -490,7 +495,7 @@ p {
 }
 
 ._customer-stage {
-  width: 500px;
+  width: 33%;
 }
 ._customer-stage p {
   font-weight: bold;
@@ -602,6 +607,19 @@ p {
     width: 100%;
     height: auto;
     margin-left: 10px;
+  }
+
+  h2{
+    font-size: 23px;
+  }
+  
+  h3 {
+    display: block;
+    font-size: 21px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 
   ._customer-request {
