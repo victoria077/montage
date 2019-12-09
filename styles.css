@@ -129,8 +129,7 @@ p {
   border-radius: 10px;
   margin-bottom: 50px;
   margin-top: 70px;
-  box-shadow:
-      0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ._customer-info {
@@ -204,8 +203,7 @@ p {
   margin-top: 40px;
   position: relative;
   margin-bottom: 15px;
-  box-shadow:
-  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ._customer-worker {
@@ -261,7 +259,6 @@ p {
   padding: 10px 0;
 }
 
-
 /* Offer styles */
 ._customer-customised {
   display: flex;
@@ -302,8 +299,7 @@ p {
   cursor: pointer;
 }
 
-
-._customer-request:hover{
+._customer-request:hover {
   opacity: 0.8;
 }
 
@@ -318,10 +314,9 @@ p {
   cursor: pointer;
 }
 
-._customer-call:hover{
+._customer-call:hover {
   opacity: 0.8;
 }
-
 
 ._customer-refrid img {
   width: 550px;
@@ -401,7 +396,7 @@ p {
   width: 100%;
 }
 
-._customer-feedback-wrapper{
+._customer-feedback-wrapper {
   margin-left: 30px;
 }
 ._customer-feedback {
@@ -415,33 +410,30 @@ p {
   height: 420px;
 }
 
-._customer-feedback1{
+._customer-feedback1 {
   background-image: url(./images/bg_feedback1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
-._customer-feedback2{
+._customer-feedback2 {
   background-image: url(./images/bg_feedback2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
-._customer-feedback3{
+._customer-feedback3 {
   background-image: url(./images/bg_feedback3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
-
 ._customer-feedback img {
   margin-bottom: 15px;
 }
-
-
 
 /* Clients styles */
 .slider2 .swiper-wrapper .swiper-slide {
@@ -452,7 +444,6 @@ p {
 .slider2 .swiper-wrapper .swiper-slide img {
   padding-left: 30px;
 }
-
 
 ._customer-client {
   margin: 0 10px;
@@ -479,10 +470,9 @@ p {
   outline: none;
 }
 
-._customer-order:hover{
+._customer-order:hover {
   opacity: 0.8;
 }
-
 
 /* Stages styles */
 
@@ -570,12 +560,10 @@ p {
     font-size: 18px;
   }
 
-  ._customer-feedback-wrapper{
+  ._customer-feedback-wrapper {
     margin-left: 0px;
   }
 }
-  
-
 
 @media only screen and (max-width: 1400px) {
   ._customer-info_img {
@@ -607,20 +595,36 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+  ._customer-logo {
+    margin-left: 15px;
+  }
   ._customer-geography img {
     width: 100%;
     height: auto;
     margin-left: 10px;
   }
-  
+
   ._customer-request {
-   font-size: 20px;
+    font-size: 20px;
   }
   ._customer-feedback {
     min-height: 500px;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  ._customer-service {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ._customer-service h3 {
+    margin-top: 10px;
+  }
+  ._customer-client {
+    margin-left: 30px !important;
+  }
+}
 @media only screen and (max-width: 400px) {
   ._customer-stage {
     margin: 0 auto;
@@ -633,6 +637,9 @@ p {
 
   ._customer-request {
     margin-right: 0;
-    font-size: 18px;
+  }
+
+  ._customer-client {
+    margin-left: 20px !important;
   }
 }
