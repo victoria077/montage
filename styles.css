@@ -20,7 +20,7 @@ ul {
 }
 
 h2{
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
@@ -73,7 +73,6 @@ p {
 ._customer-title {
   display: flex;
   align-items: center;
-  vertical-align: middle;
 }
 
 ._customer-point {
@@ -495,7 +494,7 @@ p {
 }
 
 ._customer-stage {
-  width: 33%;
+  width: 500px;
 }
 ._customer-stage p {
   font-weight: bold;
@@ -600,6 +599,15 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+
+  h2{
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 21px;
+  }
+
   ._customer-logo {
     margin-left: 15px;
   }
@@ -607,19 +615,6 @@ p {
     width: 100%;
     height: auto;
     margin-left: 10px;
-  }
-
-  h2{
-    font-size: 23px;
-  }
-  
-  h3 {
-    display: block;
-    font-size: 21px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
   }
 
   ._customer-request {
